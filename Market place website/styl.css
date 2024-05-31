@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('file:///C:/form/img/bg1.jpg'); /* Add this line */
+    background-size: cover; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+}
+h2 {
+    text-align: center;
+    color: #f8f4f8; /* Purple color */
+}
+
+form {   
+    width: 80%; /* Adjust this value to make the form smaller or larger */
+    margin: 0 auto;
+    background-color: transparent; /* Fully transparent */
+    border: 2px solid #f396ee;
+    padding: 20px;
+    box-shadow: 5px 10px #ea7afe;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    color: #e9d5ec;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #eaa6ea;
+    transition: all 0.3s ease-in-out;
+}
+
+
+input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #eaa6ea;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"]:focus, select:focus {
+    border-color: #8fbe91;
+    box-shadow: 0 0 5px rgba(143,190,145,0.5);
+}
+input[type="text"]:valid, select:valid {
+    border-color: #c794df; /* color when input is valid */
+}
+input[type="text"]:invalid, select:invalid {
+    border-color: #5a2f5c; /* color when input is invalid */
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #c27cd4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+    background-color: #af3ea7;
+    transform: scale(1.05);
+}
